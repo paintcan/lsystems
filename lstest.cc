@@ -1,6 +1,7 @@
 #include <iostream>
 #include "lsystems.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 int main(int argc, char *argv[]) {
   if (argc < 3) {
