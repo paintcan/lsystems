@@ -1,0 +1,5 @@
+(axiom (X))
+(production ((X)) ()
+	    (F) ((++) (X)) (F) ((--) (X)) (++) (X))
+(production ((F)) ()
+	    (F) (F))

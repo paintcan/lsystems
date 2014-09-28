@@ -1,0 +1,4 @@
+#!/bin/bash
+g++ -c lsystems.cc
+g++ -c sexp.c
+g++ lstest.cc sexp.o lsystems.o
